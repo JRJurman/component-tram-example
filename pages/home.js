@@ -1,16 +1,13 @@
 const Tram = require('tram-one')
 const html = Tram.html({
-  'app-header': require('../elements/app-header'),
+  'colorized-header': require('../components/colorized-header'),
   'no-js-warning': require('../elements/no-js-warning')
 })
 
 module.exports = (store, actions) => {
-  const advanceColor = () => {
-    actions.advance()
-  }
   return html`
     <div>
-      <app-header color=${store.color} onclick=${advanceColor} />
+      <colorized-header />
       <no-js-warning />
       <div>
         Thank you for using Tram-One!<br />

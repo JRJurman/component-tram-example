@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`colorized-header should match snapshot 1`] = `
+"<h1 style=\\"
+    color: red; background: black;
+    cursor: pointer; text-align: center;
+    padding: 1em; user-select: none;
+    margin: -8px -8px 8px -8px;
+  \\">
+      test-app
+    </h1>"
+`;

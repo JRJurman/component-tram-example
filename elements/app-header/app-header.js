@@ -10,7 +10,7 @@ module.exports = (attrs) => {
   `
   return html`
     <h1 style=${style} onclick=${attrs.onclick} >
-      test-app
+      This is a very cool podcast
     </h1>
   `
 }
