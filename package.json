@@ -5,7 +5,7 @@
     "start": "webpack-dev-server --env development --open --hot --inline=true",
     "prebuild": "cp -r ./public/ dist",
     "build": "webpack --env production",
-    "test": "jasmine ./specs/specs.js"
+    "test": "jest --watchAll"
   },
   "keywords": [
     "tram-one"
@@ -16,6 +16,7 @@
     "@babel/preset-env": "^7.1.0",
     "babel-loader": "^8.0.4",
     "jasmine": "^2.8.0",
+    "jest": "^24.0.0",
     "tram-build-page": "^1.0.1",
     "tram-one": "^7.1.0",
     "webpack": "^4.20.2",
